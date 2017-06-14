@@ -1,0 +1,60 @@
+'use strict';
+const players = [
+  {
+    'id': 'federer',
+    'name': 'Roger Federer',
+    'country': 'sw',
+    'birth': '1981',
+    'image': 'federer.jpg',
+    // 'cover': 'driulis-gonzalez-cover.jpg',
+    // 'link': 'https://en.wikipedia.org/wiki/Driulis_González',
+    'grandslams': [
+      { 'year': '2003', 'open': 'Wimbledon' },
+      { 'year': '2004', 'open': 'Austrailian' },
+      { 'year': '2004', 'open': 'Wimbledon' },
+      { 'year': '2004', 'open': 'US' },
+      { 'year': '2005', 'open': 'Wimbledon' },
+      { 'year': '2005', 'open': 'US' },
+      { 'year': '2006', 'open': 'Austrailian' },
+      { 'year': '2006', 'open': 'Wimbledon' },
+      { 'year': '2006', 'open': 'US' },
+      { 'year': '2007', 'open': 'Austrailian' },
+      { 'year': '2007', 'open': 'Wimbledon' },
+      { 'year': '2007', 'open': 'US' },
+      { 'year': '2008', 'open': 'US' },
+      { 'year': '2009', 'open': 'French' },
+      { 'year': '2009', 'open': 'Wimbledon' },
+      { 'year': '2010', 'open': 'Austrailian' },
+      { 'year': '2012', 'open': 'Wimbledon' },
+      { 'year': '2017', 'open': 'Austrailian' },
+    ],
+  },
+  {
+    'id': 'nadal',
+    'name': 'Rafael Nadal',
+    'country': 'sp',
+    'birth': '1986',
+    'image': 'nadal.jpg',
+    // 'cover': 'driulis-gonzalez-cover.jpg',
+    // 'link': 'https://en.wikipedia.org/wiki/Driulis_González',
+    'grandslams': [
+      { 'year': '2005', 'open': 'French' },
+      { 'year': '2006', 'open': 'French' },
+      { 'year': '2007', 'open': 'French' },
+      { 'year': '2008', 'open': 'French' },
+      { 'year': '2008', 'open': 'Wimbledon' },
+      { 'year': '2009', 'open': 'Austrailian' },
+      { 'year': '2010', 'open': 'French' },
+      { 'year': '2010', 'open': 'Wimbledon' },
+      { 'year': '2010', 'open': 'US' },
+      { 'year': '2011', 'open': 'French' },
+      { 'year': '2012', 'open': 'French' },
+      { 'year': '2013', 'open': 'French' },
+      { 'year': '2013', 'open': 'US' },
+      { 'year': '2014', 'open': 'French' },
+      { 'year': '2017', 'open': 'French' }
+    ],
+  }
+];
+
+export default players;
